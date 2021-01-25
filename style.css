@@ -1,3 +1,29 @@
-h1 {
-    background: red;
+header {
+    height:230px;
+    padding: 20px 0 70px 0;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    background-color: black;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(header.jpg);
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}     
+
+h1{
+    color: white;
+    text-shadow: 5px 5px 0 black;
+    margin-top: 5%;
+    font-size: 2.65em;
+    font-weight: 650;
+}
+h2{
+    color: red;
+    font-size: 2em;
+    font-weight: 500;
 }
