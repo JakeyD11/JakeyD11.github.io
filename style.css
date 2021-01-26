@@ -23,3 +23,47 @@
 .site-header nav a:hover {
      color: pink;
 }
+.intro {
+    height: 100px;
+    padding: 20px 0 70px 0;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    background-color: #9aa3a3; 
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 55px;
+}
+ul {
+    text-align: left;
+}
+.beard {
+    width: 175px;
+    height: 190px;
+    position:fixed;
+    top: 77px;
+    left: 0;
+    border:black 10px ;
+}
+.meleft {
+    width: 175px;
+    height: 190px;
+    position: fixed;
+    top: 77px;
+    right: 8px;
+    border: black 10px;
+}
+.summary {
+    font-size: 1.1em;
+    background-color: #2f3241;
+    color: white;
+    font-weight: 60;
+}
